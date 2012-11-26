@@ -1,0 +1,20 @@
+// SQLSocketServer.idl : IDL source for SQLSocketServer.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SQLSocketServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(A0F90134-8C84-11D3-B7AE-00A0249C72A6),
+	version(1.0),
+	helpstring("ODBC Socket Server 1.0 Type Library")
+]
+library SQLSOCKETSERVERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

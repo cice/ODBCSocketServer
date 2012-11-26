@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SQLSocketServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ODBCSocketServer.res" /d "_DEBUG" "D:\Projects\SQLSocketServer\ODBCSocketServer.rc"" 
+Creating temporary file "C:\TEMP\RSP1D.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ODBCSocketServer.pdb" /debug /machine:I386 /out:"Debug/ODBCSocketServer.exe" /pdbtype:sept 
+.\Debug\Fxml.obj
+.\Debug\Fxmlelement.obj
+".\Debug\main-server.obj"
+.\Debug\ODBCSocketServer.obj
+.\Debug\StdAfx.obj
+".\Debug\ws-util.obj"
+.\Debug\ODBCSocketServer.res
+]
+Creating command line "link.exe @C:\TEMP\RSP1D.tmp"
+Creating temporary file "C:\TEMP\RSP1E.bat" with contents
+[
+@echo off
+".\Debug\ODBCSocketServer.exe" /RegServer
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+echo Server registration done!
+]
+Creating command line "C:\TEMP\RSP1E.bat"
+Compiling resources...
+Linking...
+<h3>Output Window</h3>
+Performing registration
+Server registration done!
+
+
+
+<h3>Results</h3>
+ODBCSocketServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

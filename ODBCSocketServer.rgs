@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{A0F90135-8C84-11D3-B7AE-00A0249C72A6} = s 'ODBCSocketServer'
+		'ODBCSocketServer.EXE'
+		{
+			val AppID = s {A0F90135-8C84-11D3-B7AE-00A0249C72A6}
+		}
+	}
+}
